@@ -8,8 +8,43 @@
 //    return resultado;
 //}
 
+// function calcularDelta(a, b, c){
+//     let delta = b**2 - (4*a*c);
+//     return delta;
+// }
+
+// function calcularX1(a, b, delta){
+//     let x1 = (-1*b + Math.sqrt(delta)) / 2 * a;
+//     return x1;
+// }
+
+// function calcularX2(a, b, delta){
+//     let x2 = (-1*b - Math.sqrt(delta)) / 2 * a;
+//     return x2;
+// }
+
+funcion calcularCPF(cpf){
+    
+}
+
 $("#btOla").click(
     function(){
+
+        let notas = [9,7,4];
+
+        let nome = "samuel";
+   
+        for (i=0;i<notas.length;i++){
+            console.log(notas[i]);
+            
+        for (i=0;i<nome.length;i++){
+          console.log(nome[i]);
+        }
+    }
+
+
+//$("#btOla").click(
+    //function(){
     //     cadastro = 
     //     {
     //         'Nome':document.getElementById('inputNome').value,
@@ -32,14 +67,13 @@ $("#btOla").click(
            // );
 
             
-            if (media >= 7) {
-                alert('voce foi aprovado');
-            } else {
-                alert('voce ficou de exame');
+            //if (media >= 7) {
+             //   alert('voce foi aprovado');
+           // } else {
+            //    alert('voce ficou de exame');
             //    let exame = 10 - media;
-            let exame = calcularExame(media);
-                alert('voce precisa tirar ' + exame + ' no exame.');
-            }
-
-    }
+           // let exame = calcularExame(media);
+             //   alert('voce precisa tirar ' + exame + ' no exame.');
+           // }
+}
 )
